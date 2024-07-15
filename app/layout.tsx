@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
 import { FloatingNavDemo } from "@/components/FloatNav";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +34,7 @@ export default function RootLayout({
             <FloatingNavDemo/> 
               </div> 
             {children}
+            <SpeedInsights />
             </ThemeProvider>
             
             </body>
