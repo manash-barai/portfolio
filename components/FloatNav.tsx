@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
 import { IconHome, IconMessage, IconUser, IconMenu2 } from "@tabler/icons-react";
+import Link from "next/link";
 
 export function FloatingNavDemo() {
   const [isNavVisible, setIsNavVisible] = useState(true);
@@ -28,7 +28,7 @@ export function FloatingNavDemo() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [prevScrollPos]);
+  });
 
   const navItems = [
     {
@@ -107,9 +107,9 @@ const FloatingNav: React.FC<FloatingNavProps> = ({
         {navItems.map((item) => (
           <li key={item.name} className="my-2 md:my-0">
             <Link
-              to={item.link}
-              smooth={true}
-              duration={500}
+              href={item.link}
+             
+             
               className="cursor-pointer flex items-center space-x-2"
               onClick={handleLinkClick}
             >

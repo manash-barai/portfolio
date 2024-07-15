@@ -1,8 +1,8 @@
-"use client";
 import React from "react";
 import { Vortex } from "./ui/vortex";
-import { BackgroundGradientContact } from "./GradientImageContact";
 import { SignupFormDemo } from "./ContactForm";
+import Image from "next/image";
+import { BackgroundGradientContact } from "./GradientImageContact";
 
 export function VortexDemoSecond() {
   return (
@@ -19,9 +19,8 @@ export function VortexDemoSecond() {
           <hr className="w-[150px] border border-orange-200 my-7 m-auto" />
         </div>
         <div className="w-full lg:flex md:flex  lg:justify-between sm:justify-center gap-5 md:justify-between">
-          <div className="md:hidden lg:block flex justify-center">
-            <BackgroundGradientContact imgUri={"./images/myImg.png"} />
-            {/* <img  src={"./images/myImg.png"} className="rounded-full w-96"  alt="MYImg"   /> */}
+          <div className="md:hidden lg:block flex justify-center  w-full">
+            <BackgroundGradientContact imgUri={"/images/myImg.png"} />
           </div>
           <div className="mt-7 lg:mt-0 ">
             <SignupFormDemo />
