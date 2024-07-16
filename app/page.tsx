@@ -10,19 +10,19 @@ import React from "react";
 export default function page() {
   return (
     <>
-      <main id="home" className="container  px-3 lg:px-28 md:px-16 ">
+      <main id="home" className="section-container  container  px-3 lg:px-28 md:px-16 ">
         <HeroSection />
       </main>
-      <main id="about">
+      <main id="about"className="section-container ">
         <AboutUs />
       </main>
-      <main id="projects" className="">
+      <main id="projects" className="section-container ">
         <Project />
       </main>
 
       <main
         id="skills"
-        className="flex justify-center flex-col items-center gap-11"
+        className="section-container  flex justify-center flex-col items-center gap-11"
       >
         <div>
           <h2 className="my-11 text-5xl text-center">Skills </h2>
@@ -31,7 +31,7 @@ export default function page() {
         <CarouselSize />
       </main>
 
-      <main className=""
+      <main className="section-container "
         id="contact">
         <VortexDemoSecond />
       </main>

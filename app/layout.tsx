@@ -30,9 +30,8 @@ export default function RootLayout({
           >
             
             <BackgroundBeams />
-            <div className="flex justify-start">
             <FloatingNavDemo/> 
-              </div> 
+            
             {children}
             <SpeedInsights />
             </ThemeProvider>
