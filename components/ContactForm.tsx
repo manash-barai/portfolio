@@ -34,7 +34,7 @@ export function SignupFormDemo() {
     <div style={{background:"rgba(0,0,0,0.3)"}} className= "shadow-md max-w-full min-w-[370px] p-4 mb-3 mx-auto rounded-none md:rounded-2xl md:p-8 shadow-input  ">
     
       <p className="text-neutral-600 text-md max-w-sm mt-2 dark:text-neutral-300">
-       Contact Me For Services
+       Contact Me
       </p>
 
       <form className="my-8 w-full " onSubmit={handleSubmit}>

@@ -118,11 +118,7 @@ export default function Project() {
                   fields.
                 </p>
                 <p> Excel upload with dynamic field configurations.</p>
-                <p>
-                  {" "}
-                  Comprehensive user management and customization options. o
-                  Tech Stack: React, MongoDB, Node.js, Express.js, SendGrid{" "}
-                </p>
+                
               </div>
               <ButtonsCard>
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">

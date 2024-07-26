@@ -32,7 +32,7 @@ export default function RootLayout({
             <BackgroundBeams />
             <FloatingNavDemo/> 
             
-            {children}
+            {/* {children} */}
             <SpeedInsights />
             </ThemeProvider>
             
