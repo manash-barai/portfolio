@@ -23,7 +23,7 @@ const HeroSection = () => {
       img:"/images/linkedin.png"
     },
     {
-      link:"https://github.com/manashBarai",
+      link:"https://github.com/manash-barai",
       img:"/images/code.png"
     },
    

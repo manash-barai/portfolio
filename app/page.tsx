@@ -13,7 +13,7 @@ export default function page() {
       <main id="home" className="section-container  container  px-3 lg:px-28 md:px-16 ">
         <HeroSection />
       </main>
-      <main id="about"className="section-container ">
+      <main id="about"className="section-container text-orange-400 ">
         <AboutUs />
       </main>
       <main id="projects" className="section-container ">
